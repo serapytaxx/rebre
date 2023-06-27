@@ -4,6 +4,9 @@
 html, body{
     height: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 .header {
@@ -250,6 +253,1029 @@ margin: 0 -65%;
  font-size: 1.2vw;
 }
 .footer nav .fio {
+margin: 0 193.5%;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+
+#slider-wrapper {
+  width: 60%;
+  height: 62%;
+  margin-left: 21.5%;
+  margin-top: 25%;
+  position: relative;
+  overflow: hidden;
+}
+
+#s1 {
+  padding: 0.6%;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 5.5%;
+  margin-left: -4%;
+  border-radius: 50%;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s2 {
+  padding: 0.6%;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 5.5%;
+  margin-left: -1.2%;
+  border-radius: 50%;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s3 {
+  padding: 0.6%;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 5.5%;
+  margin-left: 1.4%;
+  border-radius: 50%;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s1:hover,
+#s2:hover,
+#s3:hover{
+  opacity: .50;
+}
+
+.inner-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 0%;
+  overflow: hidden;
+}
+
+.control {
+  display: none;
+}
+
+#Slide1:checked ~ .overflow-wrapper {
+  margin-left: 0%;
+}
+
+#Slide2:checked ~ .overflow-wrapper {
+  margin-left: -100%;
+}
+
+#Slide3:checked ~ .overflow-wrapper {
+  margin-left: -200%;
+}
+
+
+
+#Slide1:checked + #s1 {
+  opacity: 1;
+}
+
+#Slide2:checked + #s2 {
+  opacity: 1;
+}
+
+#Slide3:checked + #s3 {
+  opacity: 1;
+}
+
+
+
+.overflow-wrapper {
+  width: 400%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  overflow-y: hidden;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.slide img {
+  width: 25%;
+  float: left;
+}
+
+.dobro{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 25%;
+ margin-top: 5%;
+
+}
+
+.stoit{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 4%;
+ margin-top: 12%;
+line-height: 120%;
+}
+
+.footer2 {
+  margin-top: 5%;
+  position: relative;
+  width: 100%;
+  background: #000000;
+  color: #000000;
+  height: 18%;
+  overflow: hidden;
+
+
+}
+
+.footer2 nav {
+  display: flex;
+    margin-left: 42%;
+  align-items: center;
+  height: 100%;
+}
+
+.footer2 nav .group2 {
+margin: 0 -65%;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+.footer2 nav .fio2 {
+margin: 0 193.5%;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+
+.zgd{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 30.5%;
+ margin-top: 5%;
+
+}
+
+.matt{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 4%;
+ margin-top: 12%;
+line-height: 120%;
+}
+
+.chem{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 41%;
+ margin-top: 35%;
+
+}
+
+.chis{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 41.2%;
+ margin-top: 42%;
+line-height: 120%;
+}
+
+.eat{
+  position: absolute;
+  width: 29.4%;
+  height: auto;
+  margin-top: 42%;
+  margin-left: 4%;
+}
+.ma{
+  position: absolute;
+  width: 13%;
+  height: auto;
+  margin-top: 54%;
+z-index: 1;
+margin-left: 87%;
+
+}
+
+.zabav{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 38.5%;
+ margin-top: 85%;
+
+}
+
+.ymat{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 4%;
+ margin-top: 92%;
+line-height: 120%;
+}
+
+.divan{
+  position: absolute;
+  width: 29.4%;
+  height: auto;
+  margin-top: 108%;
+  margin-left: 17%;
+}
+.pod{
+  position: absolute;
+  width: 29.4%;
+  height: auto;
+  margin-top: 108%;
+  margin-left: 54.8%;
+}
+
+.never{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 35%;
+ margin-top: 148%;
+
+}
+
+.obla{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 4%;
+ margin-top: 154.3%;
+line-height: 120%;
+}
+
+.vzriv{
+  position: absolute;
+  width: 29.4%;
+  height: auto;
+  margin-top: 155%;
+  margin-left: 68%;
+}
+
+.ma2{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  margin-top: 177%;
+margin-left: 1%;
+
+}
+
+.love{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 37%;
+ margin-top: 198%;
+
+}
+
+.love2{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 4%;
+ margin-top: 204.3%;
+line-height: 120%;
+}
+
+.footer3 {
+  margin-top: 218%;
+  position: relative;
+  width: 100%;
+  background: #000000;
+  color: #000000;
+  height: 18%;
+  overflow: hidden;
+
+
+}
+
+.footer3 nav {
+  display: flex;
+    margin-left: 42%;
+  align-items: center;
+  height: 100%;
+}
+
+.footer3 nav .group3 {
+margin: 0 -65%;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+.footer3 nav .fio3 {
+margin: 0 193.5%;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+
+.twog{
+  position: absolute;
+  width: 100%;
+  height: auto;
+   clip-path: inset(0 0 6% 0);
+    object-fit: cover;
+  overflow: hidden;
+}
+
+.rask{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+ font-size: 3.8vw;
+ color: white;
+ margin-left: 26.3%;
+ margin-top: 8%;
+
+}
+
+.down {
+  position: absolute;
+  display: inline-block;
+  padding: 0.7vw 3vw;
+  border: 0.4vw solid white;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 2.4vw;
+  font-weight: 400;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 42%;
+  margin-top: 29.5%;
+  z-index: 2;
+}
+
+.down:hover {
+  background-color: white;
+  color: black;
+}
+.down:active {
+  background-color: #CACACA;
+  color: white;
+}
+
+.poch{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 38%;
+ margin-top: 40%;
+
+}
+
+.ynik{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 4%;
+ margin-top: 46%;
+line-height: 120%;
+}
+
+.tem{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 4%;
+ margin-top: 49.2%;
+line-height: 120%;
+}
+
+.zabota{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 4%;
+ margin-top: 59.5%;
+line-height: 120%;
+}
+
+.vas{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: black;
+ margin-left: 4%;
+ margin-top: 62.7%;
+line-height: 120%;
+}
+
+
+.lina{
+  margin-top: 69%;
+  position: absolute;
+  width: 100%;
+  height: auto;
+    object-fit: cover;
+  overflow: hidden;
+}
+
+.nashi{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 42%;
+ margin-top: 79.5%;
+
+}
+
+.kl1{
+  position: absolute;
+  width: 29.4%;
+  height: auto;
+  margin-top: 91.5%;
+  margin-left: 12%;
+}
+.kl2{
+  position: absolute;
+  width: 29.4%;
+  height: auto;
+  margin-top: 91.5%;
+  margin-left: 59.5%;
+}
+
+.blik{
+  position: absolute;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 21%;
+ margin-top: 87%;
+
+}
+.exo{
+  position: absolute;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 69%;
+ margin-top: 87%;
+
+}
+
+.wena1{
+  position: absolute;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 21%;
+ margin-top: 122%;
+
+}
+.wena2{
+  position: absolute;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 69%;
+ margin-top: 122%;
+
+}
+
+.er1 {
+  position: absolute;
+  display: inline-block;
+  padding: 0.7vw 3vw;
+  border: 0.4vw solid black;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 2.4vw;
+  font-weight: 400;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 18.5%;
+  margin-top: 128%;
+
+}
+
+.er1:hover {
+  background-color: black;
+  color: white;
+}
+.er1:active {
+  background-color: #CACACA;
+  color: black;
+}
+
+.er2 {
+  position: absolute;
+  display: inline-block;
+  padding: 0.7vw 3vw;
+  border: 0.4vw solid black;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 2.4vw;
+  font-weight: 400;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 66.5%;
+  margin-top: 128%;
+
+}
+
+.er2:hover {
+  background-color: black;
+  color: white;
+}
+.er2:active {
+  background-color: #CACACA;
+  color: black;
+}
+
+
+.kl3{
+  position: absolute;
+  width: 29.4%;
+  height: auto;
+  margin-top: 146.5%;
+  margin-left: 12%;
+}
+.kl4{
+  position: absolute;
+  width: 29.4%;
+  height: auto;
+  margin-top: 146.5%;
+  margin-left: 59.5%;
+}
+
+.kris{
+  position: absolute;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 21%;
+ margin-top: 142%;
+
+}
+.fanto{
+  position: absolute;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 69%;
+ margin-top: 142%;
+
+}
+
+.wena3{
+  position: absolute;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 21%;
+ margin-top: 177%;
+
+}
+.wena4{
+  position: absolute;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+ font-size: 2.5vw;
+ color: black;
+ margin-left: 69%;
+ margin-top: 177%;
+
+}
+
+.er3 {
+  position: absolute;
+  display: inline-block;
+  padding: 0.7vw 3vw;
+  border: 0.4vw solid black;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 2.4vw;
+  font-weight: 400;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 18.5%;
+  margin-top: 183%;
+
+}
+
+.er3:hover {
+  background-color: black;
+  color: white;
+}
+.er3:active {
+  background-color: #CACACA;
+  color: black;
+}
+
+.er4 {
+  position: absolute;
+  display: inline-block;
+  padding: 0.7vw 3vw;
+  border: 0.4vw solid black;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 2.4vw;
+  font-weight: 400;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 66.5%;
+  margin-top: 183%;
+
+}
+
+.er4:hover {
+  background-color: black;
+  color: white;
+}
+.er4:active {
+  background-color: #CACACA;
+  color: black;
+}
+
+.footer4 {
+  margin-top: 45.5%;
+  position: relative;
+  width: 100%;
+  background: #000000;
+  color: #000000;
+  height: 18%;
+  overflow: hidden;
+  margin-top: 194%;
+
+
+}
+
+.footer4 nav {
+  display: flex;
+    margin-left: 42%;
+  align-items: center;
+  height: 100%;
+}
+
+.footer4 nav .group4 {
+margin: 0 -65%;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+.footer4 nav .fio4 {
+margin: 0 193.5%;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+
+
+.eror{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 800;
+ font-size: 3.8vw;
+ color: black;
+line-height: 150%;
+ margin-left: 4%;
+ margin-top: 6%;
+
+}
+
+.bibi{
+  position: absolute;
+  width: 60%;
+  height: auto;
+margin-left: 40%;
+
+}
+
+.back1 {
+  position: absolute;
+  display: inline-block;
+  padding: 0.7vw 3vw;
+  border: 0.4vw solid black;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 2.4vw;
+  font-weight: 400;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 4%;
+  margin-top: 33%;
+  z-index: 2;
+}
+
+.back1:hover {
+  background-color: black;
+  color: white;
+}
+.back1:active {
+  background-color: #CACACA;
+  color: black;
+}
+
+
+.footer5 {
+  margin-top: 50%;
+  position: absolute;
+  width: 100%;
+  background: #000000;
+  color: #000000;
+  height: 18%;
+  overflow: hidden;
+
+
+}
+
+.footer5 nav {
+  display: flex;
+    margin-left: 42%;
+  align-items: center;
+  height: 100%;
+}
+
+.footer5 nav .group5 {
+margin: 0 -65%;
+  color: #000000;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+.footer5 nav .fio5 {
+margin: 0 193.5%;
+  color: #000000;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+
+.header2 {
+  position: relative;
+  width: 100%;
+  background: #ffffff;
+  color: #ffffff;
+  height: 18%;
+  overflow: hidden;
+
+
+}
+
+.header2 nav {
+  display: flex;
+    margin-left: 23%;
+  align-items: center;
+  height: 100%;
+}
+
+.header2 nav a {
+  margin: 0 5%;
+  color: #000000;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+
+.logo2 img{
+  position: absolute;
+  margin-top: 1.2%;
+  margin-left: 4.2%;
+  width: 6%;
+  height: auto%;
+
+}
+
+
+.capew{
+  width: 100%;
+  height: 330%;
+  background-color: black;
+}
+
+.materi{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 800;
+ font-size: 3.8vw;
+ color: white;
+line-height: 150%;
+margin-left: 39.5%;
+ margin-top: 5%;
+text-align: center;
+}
+
+.materi2{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 800;
+ font-size: 3.8vw;
+ color: white;
+line-height: 150%;
+margin-left: 22.5%;
+ margin-top: 15%;
+text-align: center;
+}
+
+.ch1{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: white;
+ margin-left: 4%;
+ margin-top: 35%;
+
+}
+
+.ch2{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: white;
+ margin-left: 4%;
+ margin-top: 42%;
+line-height: 120%;
+}
+
+.logi{
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 57%;
+  width: 92%;
+  height: auto;
+    object-fit: cover;
+  overflow: hidden;
+}
+
+.ch3{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: white;
+ margin-left: 4%;
+ margin-top: 87%;
+line-height: 120%;
+}
+
+.ch4{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+ font-size: 2.5vw;
+ color: white;
+ margin-left: 4%;
+ margin-top: 109%;
+
+}
+
+.ch5{
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.9vw;
+ color: white;
+ margin-left: 4%;
+ margin-top: 116%;
+line-height: 120%;
+}
+
+.us1{
+position: absolute;
+width: 29.4%;
+height: auto;
+margin-top: 116.3%;
+margin-left: 66.5%;
+}
+
+
+.footer6 {
+
+  position: absolute;
+  width: 100%;
+  background: #090909;
+  color: #090909;
+  height: 18%;
+  overflow: hidden;
+
+
+}
+
+.footer6 nav {
+  display: flex;
+    margin-left: 42%;
+  align-items: center;
+  height: 100%;
+}
+
+.footer6 nav .group6 {
+margin: 0 -65%;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ font-size: 1.2vw;
+}
+.footer6 nav .fio6 {
 margin: 0 193.5%;
   color: #ffffff;
   text-decoration: none;
